@@ -26,7 +26,6 @@ const PasadaPage: React.FC = () => {
         },
     ];
 
-    // 2. State to track the active image
     const [selectedImg, setSelectedImg] = useState<Screenshot | null>(null);
 
     return (
@@ -149,16 +148,16 @@ const PasadaPage: React.FC = () => {
                             Artistic Authenticity
                         </h3>
                         <p className="text-white text-lg font-medium leading-relaxed mb-4">
-                            "Every texture in PASADA is handcrafted from
+                            "Almost every texture in PASADA is handcrafted from
                             scratch."
                         </p>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            To ensure a unique and authentic aesthetic, a
-                            bespoke texturing pipeline is used. By creating all
-                            textures manually, the project achieves a level of
-                            cultural and technical detail that generic assets
-                            cannot provide—capturing the specific wear, signage,
-                            and chrome reflections of the Philippine Jeepney.
+                            To ensure a unique and optimized aesthetic designed
+                            for low-end and mobile devices, a custom texturing
+                            pipeline is used. By creating most of the textures
+                            manually and using atlassing, the project achieves a
+                            level of optimization that generic assets cannot
+                            provide.
                         </p>
                     </div>
                 </div>
