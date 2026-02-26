@@ -1,73 +1,59 @@
-# React + TypeScript + Vite
+Multihyphenate Portfolio v2.0
+Software Architecture | Game Development | Audio Production
+Overview
+A high-performance, type-safe portfolio built to showcase the intersection of enterprise software engineering, immersive game development, and creative audio production. This project follows Clean Architecture principles to ensure scalability as the "Southbound Studios" ecosystem expands.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+System Architecture
+The frontend is engineered for speed and maintainability using a decoupled data-to-UI approach.
 
-Currently, two official plugins are available:
+Framework: React 19 (TypeScript / TSX)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build Tool: Vite (ESNext)
 
-## React Compiler
+Styling: Tailwind CSS v4 (Engine-level CSS processing)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Routing: React Router 7 (Client-side navigation)
 
-## Expanding the ESLint configuration
+Deployment: Vercel (CI/CD Pipeline)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Key Engineering Standards
+Type Safety: Strict TypeScript interfaces for all project data and component props.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Scalable Data Layer: Project and experience data are centralized in a single source of truth, allowing for O(1) content updates.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Responsive Design: Mobile-first fluid layouts using Tailwind’s modern grid and flexbox engines.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Project Highlights
+🎮 PASADA: Jeepney Legends
+A tribute to Philippine commute culture that reached 1.2M+ views on social media.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Optimization: Engineered using low-triangle modeling and texture atlasing for mobile-ready performance.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Authenticity: Bespoke texturing pipeline with 100% handcrafted assets.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Deep Dive: View internal project documentation
+
+📱 Squadzip
+Enterprise Android application focusing on field operations management.
+
+Architecture: Adheres to MVVM and Clean Architecture standards.
+
+Implementation: Developed at Digital Space Explorer using Kotlin and SOLID principles.
+
+The Engine Room (Tech Stack)
+Engineering: Kotlin, Java, TypeScript, React, Android SDK.
+
+Design & 3D: Blender 3D, Asset Modeling, Texture Creation.
+
+Game Dev: Roblox Studio, Luau, Optimization Frameworks.
+
+Audio: FL Studio, Talkbox Performance, Vocal Processing.
+
+Author
+Gelo — Software Architect & Creative Founder
+
+Studio: Southbound Studios
+
+Audio: Young Fresho
+
+Location: Laguna, Philippines
