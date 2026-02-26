@@ -3,6 +3,8 @@ import { projects } from "../data/portfolioData";
 import ProjectCard from "../components/ProjectCard";
 import EngineRoom from "../components/EngineRoom";
 import Experience from "../components/Experience";
+import ImpactBar from "../components/ImpactBar";
+import SocialPreview from "../components/SocialPreview";
 
 const App: React.FC = () => {
     return (
@@ -31,6 +33,8 @@ const App: React.FC = () => {
             </header>
 
             <main className="max-w-5xl mx-auto">
+                <ImpactBar />
+
                 <h2 className="text-2xl font-semibold mb-8 border-b border-gray-800 pb-4 text-white">
                     Selected Work
                 </h2>
@@ -40,11 +44,13 @@ const App: React.FC = () => {
                         <ProjectCard key={project.id} project={project} />
                     ))}
                 </div>
+
+                <Experience />
+
+                <EngineRoom />
+
+                <SocialPreview />
             </main>
-
-            <Experience />
-
-            <EngineRoom />
         </div>
     );
 };

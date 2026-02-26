@@ -53,7 +53,7 @@ const experienceData: ExperienceItem[] = [
         timeline: "Current",
         description:
             "Providing professional R&B, hip-hop, and specialized talkbox production services.",
-        tags: ["Audio Production", "Talkbox", "FL Studi"],
+        tags: ["Audio Production", "Talkbox", "FL Studio"],
     },
 ];
 

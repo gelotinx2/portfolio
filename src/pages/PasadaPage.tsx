@@ -42,7 +42,7 @@ const PasadaPage: React.FC = () => {
                     PASADA: Jeepney Legends
                 </h1>
                 <p className="text-xl text-gray-400 max-w-3xl leading-relaxed">
-                    A tribute to Philippine commute culture. Reached 1M+
+                    A tribute to Philippine commute culture. Reached 500K+
                     collective views on social media by focusing on technical
                     authenticity and regional route variants.
                 </p>
