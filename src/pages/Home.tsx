@@ -1,7 +1,6 @@
 import React from "react";
 import { projects } from "../data/portfolioData";
 import ProjectCard from "../components/ProjectCard";
-import Footer from "../components/Footer";
 import EngineRoom from "../components/EngineRoom";
 import Experience from "../components/Experience";
 
