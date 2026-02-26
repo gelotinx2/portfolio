@@ -1,59 +1,65 @@
-Multihyphenate Portfolio v2.0
-Software Architecture | Game Development | Audio Production
-Overview
-A high-performance, type-safe portfolio built to showcase the intersection of enterprise software engineering, immersive game development, and creative audio production. This project follows Clean Architecture principles to ensure scalability as the "Southbound Studios" ecosystem expands.
+# 🛠️ Gelo | Software Architect & Creative Founder
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Building_in_the_South-yellow?style=for-the-badge&logo=gitbook&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Laguna,_PH-blue?style=for-the-badge&logo=googlemaps&logoColor=white" />
+</p>
 
-System Architecture
-The frontend is engineered for speed and maintainability using a decoupled data-to-UI approach.
+---
 
-Framework: React 19 (TypeScript / TSX)
+### **Executive Summary**
+I am a 23-year-old **Software Developer** currently architecting enterprise Android solutions at **Digital Space Explorer**. Beyond enterprise code, I am the founder of **Southbound Studios**, where I lead the development of *PASADA: Jeepney Legends*—a project that has achieved **1.2M+ views** on social media through a blend of technical optimization and cultural authenticity.
 
-Build Tool: Vite (ESNext)
+---
 
-Styling: Tailwind CSS v4 (Engine-level CSS processing)
+## 🏗️ Technical Architecture (The Engine Room)
 
-Routing: React Router 7 (Client-side navigation)
+| Domain | Technologies |
+| :--- | :--- |
+| **Software Engineering** | `Kotlin`, `Java`, `TypeScript`, `React`, `MVVM`, `Clean Architecture`, `SOLID` |
+| **Game Development** | `Roblox Studio`, `Luau`, `Blender 3D`, `Low-Poly Modeling`, `Texture Atlasing` |
+| **Audio Production** | `FL Studio`, `Talkbox`, `Vocal Processing`, `Sound Design` |
+| **Research** | `Civil Technology`, `rPET-AS Composites`, `Materials Science` |
 
-Deployment: Vercel (CI/CD Pipeline)
+---
 
-Key Engineering Standards
-Type Safety: Strict TypeScript interfaces for all project data and component props.
+## 🚀 Featured Projects
 
-Scalable Data Layer: Project and experience data are centralized in a single source of truth, allowing for O(1) content updates.
+### **🎮 PASADA: Jeepney Legends**
+An immersive tribute to Philippine commute culture.
+* **Performance First**: Assets engineered with low-triangle counts for mobile-end stability.
+* **Bespoke Art**: 100% handcrafted textures to capture regional route variants (e.g., Calamba to San Pedro).
+* **Impact**: Reached 1.2M+ views on TikTok and 400k+ on game snippets.
 
-Responsive Design: Mobile-first fluid layouts using Tailwind’s modern grid and flexbox engines.
+### **📱 SquadZip**
+*Enterprise Android Application*
+* Built following strict **SOLID** and **Clean Architecture** principles to manage large-scale field operations.
+* Developed using **Kotlin** and **MVVM** for high-performance data handling.
 
-Project Highlights
-🎮 PASADA: Jeepney Legends
-A tribute to Philippine commute culture that reached 1.2M+ views on social media.
+### **🎵 Young Fresho Production**
+*Professional Audio Services*
+* Specializing in R&B, Hip-Hop, and specialized **Talkbox** performance.
+* Actively providing production and mixing services on **Fiverr**.
 
-Optimization: Engineered using low-triangle modeling and texture atlasing for mobile-ready performance.
+---
 
-Authenticity: Bespoke texturing pipeline with 100% handcrafted assets.
+## 📈 Social Proof & Impact
+> "Archiving the aesthetic and technical legacy of the Philippine Jeepney through immersive digital experiences."
 
-Deep Dive: View internal project documentation
+* **1.2M+** Social Media Reach 📱
+* **Lead Admin** of a dedicated community of testers and moderators 👥
+* **Researching** sustainable flood barrier solutions using rPET-AS composites 🌊
 
-📱 Squadzip
-Enterprise Android application focusing on field operations management.
+---
 
-Architecture: Adheres to MVVM and Clean Architecture standards.
+<p align="center">
+<a href="https://www.google.com/search?q=https://github.com/gelotinx2">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-100000%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" />
+</a>
+<a href="https://www.youtube.com/@YoungFresho">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/YouTube-FF0000%3Fstyle%3Dfor-the-badge%26logo%3Dyoutube%26logoColor%3Dwhite" />
+</a>
+</p>
 
-Implementation: Developed at Digital Space Explorer using Kotlin and SOLID principles.
-
-The Engine Room (Tech Stack)
-Engineering: Kotlin, Java, TypeScript, React, Android SDK.
-
-Design & 3D: Blender 3D, Asset Modeling, Texture Creation.
-
-Game Dev: Roblox Studio, Luau, Optimization Frameworks.
-
-Audio: FL Studio, Talkbox Performance, Vocal Processing.
-
-Author
-Gelo — Software Architect & Creative Founder
-
-Studio: Southbound Studios
-
-Audio: Young Fresho
-
-Location: Laguna, Philippines
+<p align="center">
+<i>Built with discipline and Clean Architecture. © 2026 Southbound Studios.</i>
+</p>
