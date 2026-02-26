@@ -7,7 +7,7 @@
 ---
 
 ### **Executive Summary**
-I am a 23-year-old **Software Developer** currently architecting enterprise Android solutions at **Digital Space Explorer**. Beyond enterprise code, I am the founder of **Southbound Studios**, where I lead the development of *PASADA: Jeepney Legends*—a project that has achieved **1.2M+ views** on social media through a blend of technical optimization and cultural authenticity.
+I am a 23-year-old **Software Developer** currently architecting enterprise Android solutions at **Digital Space Explorer**. Beyond enterprise code, I am the founder of **Southbound Studios**, where I lead the development of *PASADA: Jeepney Legends*—a project that has achieved **1M+ collective views** on social media through a blend of technical optimization and cultural authenticity.
 
 ---
 
