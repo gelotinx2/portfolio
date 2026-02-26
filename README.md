@@ -30,7 +30,7 @@ An immersive tribute to Philippine commute culture.
 * **Bespoke Art**: 100% handcrafted textures to capture regional route variants (e.g., Calamba to San Pedro).
 * **Impact**: Reached 1.2M+ views on TikTok and 400k+ on game snippets.
 
-### **📱 SquadZip**
+### **📱 Squadzip**
 *Enterprise Android Application*
 * Built following strict **SOLID** and **Clean Architecture** principles to manage large-scale field operations.
 * Developed using **Kotlin** and **MVVM** for high-performance data handling.
